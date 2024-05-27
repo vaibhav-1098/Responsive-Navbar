@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Responsive Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head><body>
+<!-- START -->
+
+<!-- pc nav -->
+<nav class="bg-rose-500 text-white flex justify-between items-center fixed left-0 top-0 w-full z-20">
+    <div class="text-2xl pl-5 p-2 font-semibold text-yellow-200">
+        LOGO
+    </div>
+    <ul class="pcNav text-xl flex justify-center items-center gap-8">
+        <li class="hover:text-yellow-200"><a href="#home" >Home</a></li>
+        <li class="hover:text-yellow-200"><a href="#about" >About</a></li>
+        <li class="hover:text-yellow-200"><a href="#services" >Services</a></li>
+        <li class="hover:text-yellow-200"><a href="#gallery" >Gallery</a></li>
+        <li class="hover:text-yellow-200 mr-8"><a href="#contact" >Contact</a></li>
+        <button id="hamBtn" class="text-3xl mr-3 flex"><i class="fa-solid fa-bars"></i></button>
+    </ul>
+</nav>
+
+<!-- mobile nav -->
+<nav class="mobileNav bg-rose-500 text-white z-10">
+    <ul class="text-xl flex flex-col justify-evenly h-full">
+        <li class="hover:text-yellow-200 px-10"><a href="#home">Home</a></li>
+        <li class="hover:text-yellow-200 px-10"><a href="#about">About</a></li>
+        <li class="hover:text-yellow-200 px-10"><a href="#services">Services</a></li>
+        <li class="hover:text-yellow-200 px-10"><a href="#gallery">Gallery</a></li>
+        <li class="hover:text-yellow-200 px-10"><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+    
+<!-- heading -->
+<h1 class="text-center m-4 text-3xl underline mt-16">Responsive Navbar</h1>
+
+
+<!-- Home -->
+<section id="home" class="m-5">
+    <h2 class="text-2xl font-semibold mb-2 bg-yellow-300 p-1 ps-3 rounded-md">HOME</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente cum placeat error fuga. Libero exercitationem ex adipisci ad atque, voluptas omnis corporis fuga repellendus quibusdam ipsa quod sed, tempora quos ducimus similique cumque animi dicta minus? Qui est, numquam, quisquam nostrum molestias, illo cupiditate magnam odio quidem hic officiis labore asperiores? Quibusdam aliquam facilis delectus libero eum assumenda rem ipsam suscipit. Quisquam, libero corrupti, expedita harum soluta explicabo provident, animi vitae esse mollitia dicta debitis obcaecati molestiae? Unde odio adipisci reiciendis, eos doloribus recusandae tempore quae esse eius rem, quod ducimus assumenda nostrum! Reprehenderit, vitae fugit fugiat eveniet dicta quis voluptate! Doloremque ipsa iure delectus laborum incidunt eveniet exercitationem provident doloribus distinctio maxime reiciendis harum assumenda iusto dolore rerum cum, corrupti accusamus impedit sunt sed cupiditate dolores in hic suscipit. Fugiat dicta perferendis, repudiandae deserunt illo officia perspiciatis repellendus esse, corrupti itaque magni soluta adipisci numquam, nulla quisquam distinctio.
+    </p>
+    <br><hr class="my-1">
+</section>
+
+<!-- About -->
+<section id="about" class="m-5">
+    <h2 class="text-2xl font-semibold mb-2 bg-yellow-300 p-1 ps-3 rounded-md">ABOUT</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente cum placeat error fuga. Libero exercitationem ex adipisci ad atque, voluptas omnis corporis fuga repellendus quibusdam ipsa quod sed, tempora quos ducimus similique cumque animi dicta minus? Qui est, numquam, quisquam nostrum molestias, illo cupiditate magnam odio quidem hic officiis labore asperiores? Quibusdam aliquam facilis delectus libero eum assumenda rem ipsam suscipit. Quisquam, libero corrupti, expedita harum soluta explicabo provident, animi vitae esse mollitia dicta debitis obcaecati molestiae? Unde odio adipisci reiciendis, eos doloribus recusandae tempore quae esse eius rem, quod ducimus assumenda nostrum! Reprehenderit, vitae fugit fugiat eveniet dicta quis voluptate! Doloremque ipsa iure delectus laborum incidunt eveniet exercitationem provident doloribus distinctio maxime reiciendis harum assumenda iusto dolore rerum cum, corrupti accusamus impedit sunt sed cupiditate dolores in hic suscipit. Fugiat dicta perferendis, repudiandae deserunt illo officia perspiciatis repellendus esse, corrupti itaque magni soluta adipisci numquam, nulla quisquam distinctio.
+    </p>
+    <hr class="my-1">
+</section>
+
+<!-- Services -->
+<section id="services" class="m-5">
+    <h2 class="text-2xl font-semibold mb-2 bg-yellow-300 p-1 ps-3 rounded-md">SERVICES</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente cum placeat error fuga. Libero exercitationem ex adipisci ad atque, voluptas omnis corporis fuga repellendus quibusdam ipsa quod sed, tempora quos ducimus similique cumque animi dicta minus? Qui est, numquam, quisquam nostrum molestias, illo cupiditate magnam odio quidem hic officiis labore asperiores? Quibusdam aliquam facilis delectus libero eum assumenda rem ipsam suscipit. Quisquam, libero corrupti, expedita harum soluta explicabo provident, animi vitae esse mollitia dicta debitis obcaecati molestiae? Unde odio adipisci reiciendis, eos doloribus recusandae tempore quae esse eius rem, quod ducimus assumenda nostrum! Reprehenderit, vitae fugit fugiat eveniet dicta quis voluptate! Doloremque ipsa iure delectus laborum incidunt eveniet exercitationem provident doloribus distinctio maxime reiciendis harum assumenda iusto dolore rerum cum, corrupti accusamus impedit sunt sed cupiditate dolores in hic suscipit. Fugiat dicta perferendis, repudiandae deserunt illo officia perspiciatis repellendus esse, corrupti itaque magni soluta adipisci numquam, nulla quisquam distinctio.
+    </p>
+    <br><hr class="my-1">
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="m-5">
+    <h2 class="text-2xl font-semibold mb-2 bg-yellow-300 p-1 ps-3 rounded-md">GALLERY</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente cum placeat error fuga. Libero exercitationem ex adipisci ad atque, voluptas omnis corporis fuga repellendus quibusdam ipsa quod sed, tempora quos ducimus similique cumque animi dicta minus? Qui est, numquam, quisquam nostrum molestias, illo cupiditate magnam odio quidem hic officiis labore asperiores? Quibusdam aliquam facilis delectus libero eum assumenda rem ipsam suscipit. Quisquam, libero corrupti, expedita harum soluta explicabo provident, animi vitae esse mollitia dicta debitis obcaecati molestiae? Unde odio adipisci reiciendis, eos doloribus recusandae tempore quae esse eius rem, quod ducimus assumenda nostrum! Reprehenderit, vitae fugit fugiat eveniet dicta quis voluptate! Doloremque ipsa iure delectus laborum incidunt eveniet exercitationem provident doloribus distinctio maxime reiciendis harum assumenda iusto dolore rerum cum, corrupti accusamus impedit sunt sed cupiditate dolores in hic suscipit. Fugiat dicta perferendis, repudiandae deserunt illo officia perspiciatis repellendus esse, corrupti itaque magni soluta adipisci numquam, nulla quisquam distinctio.
+    </p>
+    <br><hr class="my-1">
+</section>
+
+<!-- Contact -->
+<section id="contact" class="m-5">
+    <h2 class="text-2xl font-semibold mb-2 bg-yellow-300 p-1 ps-3 rounded-md">CONTACT</h2>
+    <p class="text-justify text-gray-700">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sapiente cum placeat error fuga. Libero exercitationem ex adipisci ad atque, voluptas omnis corporis fuga repellendus quibusdam ipsa quod sed, tempora quos ducimus similique cumque animi dicta minus? Qui est, numquam, quisquam nostrum molestias, illo cupiditate magnam odio quidem hic officiis labore asperiores? Quibusdam aliquam facilis delectus libero eum assumenda rem ipsam suscipit. Quisquam, libero corrupti, expedita harum soluta explicabo provident, animi vitae esse mollitia dicta debitis obcaecati molestiae? Unde odio adipisci reiciendis, eos doloribus recusandae tempore quae esse eius rem, quod ducimus assumenda nostrum! Reprehenderit, vitae fugit fugiat eveniet dicta quis voluptate! Doloremque ipsa iure delectus laborum incidunt eveniet exercitationem provident doloribus distinctio maxime reiciendis harum assumenda iusto dolore rerum cum, corrupti accusamus impedit sunt sed cupiditate dolores in hic suscipit. Fugiat dicta perferendis, repudiandae deserunt illo officia perspiciatis repellendus esse, corrupti itaque magni soluta adipisci numquam, nulla quisquam distinctio.
+    </p>
+    <br><hr class="my-1">
+</section>
+
+<!-- footer -->
+<footer class="bg-yellow-300 h-80">
+</footer>
+<div class="bg-rose-500 h-14 flex justify-center items-center text-white">
+    All Rights Reverved
+</div>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>

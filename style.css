@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+#hamBtn{
+    display: none;
+}
+
+.pcNav{
+    height: 50px;
+}
+
+.mobileNav{
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    top: -200px; 
+    transition: 0.5s;
+}
+
+.open{
+    top: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    #hamBtn{
+        display: block;
+    }
+    .pcNav li{
+        display: none;
+    }
+}
